@@ -393,7 +393,7 @@ if __name__ == '__main__':
     app = create_app()
     
     # Get port from environment or use default
-    port = int(os.environ.get('PORT', 10000))
+    port = int(os.environ.get('PORT',5000))
     
     print(f"\n{'='*60}")
     print("BROWSER EXTENSION BACKEND STARTING")
